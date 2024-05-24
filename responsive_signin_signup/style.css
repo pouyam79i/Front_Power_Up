@@ -207,6 +207,6 @@ body {
   transform: translateX(0);
 }
 
-.container.active .toggle-left {
+.container.active .toggle-right {
   transform: translateX(200%);
 }
