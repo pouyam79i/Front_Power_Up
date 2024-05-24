@@ -1,0 +1,91 @@
+<!-- the tutorial: https://www.youtube.com/watch?v=PlpM2LJWu-s&t=68s -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- Create Account div -->
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="social_icons">
+            <a href="#" class="icon">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+          <span>Or use your email for registration.</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign in div -->
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Sign In</h1>
+          <div class="social_icons">
+            <a href="#" class="icon">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+          <span>Or use your email for registration.</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forgot Your Password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Toggle Panel -->
+    <div class="toggle-container">
+      <div class="toggle">
+        <!-- Left Toggle -->
+        <div class="toggle-panel toggle-left">
+          <h1>Welcome Back!</h1>
+          <p>Enter your personal data to use our site features.</p>
+          <button class="hidden">Sign In</button>
+        </div>
+        <!-- Right Toggle -->
+        <div class="toggle-panel toggle-rigth">
+          <h1>Welcome Back!</h1>
+          <p>Register your personal data to use our site features.</p>
+          <button class="hidden">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
